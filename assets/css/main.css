@@ -1246,7 +1246,7 @@ h1, h2, h3, h4, h5, h6 {
     border: 0; }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 3em;
   line-height: 1.5em;
   letter-spacing: -0.025em; }
 
@@ -1609,9 +1609,18 @@ header.major {
     width: 75%; }
 
 footer.major {
-  margin: 4em 0 0 0; }
+  margin: 4em auto 0 auto;
+  max-width: 700px; }
 
 /* Form */
+#mc_embed_signup {
+  background-color: #e44c65;
+  clear: left;
+  font: 14px Helvetica,Arial,sans-serif;
+  width: 100%; }
+  #mc_embed_signup .button {
+    background-color: #5480f1; }
+
 form {
   margin: 0 0 2em 0; }
 
@@ -2414,21 +2423,22 @@ body.landing .dropotron.level-0 {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 100; }
-  #header h1 {
+  z-index: 100;
+  padding: 0 2%; }
+  #header #logo {
     height: inherit;
     left: 1.25em;
-    line-height: 2em;
+    line-height: 2.5em;
     margin: 0;
     position: absolute;
     top: 0;
     color: #e76278; }
   #header nav {
-    position: absolute;
-    right: 1em;
+    position: relative;
     top: 0;
     height: 3em;
-    margin: 1em 0 0 0; }
+    margin: 1em 0 0 0;
+    float: right; }
     #header nav ul {
       margin: 0; }
       #header nav ul li {
@@ -2525,6 +2535,13 @@ body.is-touch #banner {
 #one h2 {
   margin-bottom: 0;
   font-style: italic; }
+
+#four .bgimage {
+  background: url(../../images/banner.jpg) no-repeat center center fixed;
+  background-size: cover; }
+
+#five header {
+  margin: auto; }
 
 /* Footer */
 #footer {

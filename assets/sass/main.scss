@@ -117,7 +117,7 @@
 	}
 
 	h1 {
-		font-size: 2.5em;
+		font-size: 3em;
 		line-height: 1.5em;
 		letter-spacing: -0.025em;
 	}
@@ -366,11 +366,22 @@
 
 	footer {
 		&.major {
-			margin: (_size(element-margin) * 2) 0 0 0;
+			margin: (_size(element-margin) * 2) auto 0 auto;
+			max-width: 700px;
 		}
 	}
 
 /* Form */
+	#mc_embed_signup {
+		background-color: _palette(accent1);
+		clear:left;
+		font:14px Helvetica,Arial,sans-serif;
+		width:100%;
+
+		.button {
+			background-color:  _palette(accent3);
+		}
+	}
 
 	form {
 		margin: 0 0 _size(element-margin) 0;
@@ -1316,11 +1327,12 @@
 		top: 0;
 		width: 100%;
 		z-index: 100;
+		padding: 0 2%;
 
-		h1 {
+		#logo {
 			height: inherit;
 			left: 1.25em;
-			line-height: 2em;
+			line-height: 2.5em;
 			margin: 0;
 			position: absolute;
 			top: 0;
@@ -1328,11 +1340,12 @@
 		}
 
 		nav {
-			position: absolute;
-			right: 1em;
+			position: relative; // Esed to be absolute
+			// right: 1em;
 			top: 0;
 			height: 3em;
 			margin: 1em 0 0 0;
+			float: right;
 
 			ul {
 				margin: 0;
@@ -1475,6 +1488,18 @@
 		}
 	}
 
+	#four{
+		.bgimage {
+			background: url(../../images/banner.jpg) no-repeat center center fixed;
+			background-size: cover;
+		}
+	}
+
+	#five {
+		header {
+			margin: auto;
+		}
+	}
 /* Footer */
 
 	#footer {
