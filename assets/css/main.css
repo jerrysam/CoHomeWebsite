@@ -2511,12 +2511,15 @@ body.landing #header {
     #banner .content header {
       display: inline-block;
       vertical-align: middle; }
-      #banner .content header h2 {
+      #banner .content header h1 {
         font-size: 2.5em;
-        margin: 0; }
+        margin-bottom: 0.5em; }
       #banner .content header p {
         margin: 0.5em 0 0 0;
-        top: 0; }
+        top: 0;
+        font-size: 1.3em;
+        float: right;
+        font-weight: 500; }
     #banner .content .image {
       border-radius: 100%;
       display: inline-block;
