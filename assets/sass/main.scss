@@ -1095,7 +1095,7 @@
 
 		&.style1 {
 			.content {
-				background-color: _palette(accent1);
+				background-color: transparentize(_palette(accent1), 0.15);
 			}
 		}
 
@@ -1337,6 +1337,16 @@
 			position: absolute;
 			top: 0;
 			color: #e76278;
+
+			.nav_logo {
+				height: inherit;
+				float: left;
+				padding: 8%;
+				height: inherit;
+			}
+			a {
+				color: _palette(accent1);
+			}
 		}
 
 		nav {
@@ -1469,11 +1479,16 @@
 				margin-left: 3em;
 				vertical-align: middle;
 				width: 18em;
-
+				&:before {
+					background-color: rgba(255,255,255,0.5);
+					background-image: none !important;
+					z-index: -1;
+				}
 				img {
-					border-radius: 100%;
+					// border-radius: 100%;
 					display: block;
-					width: 100%;
+					width: 70%;
+					margin: 15%;
 				}
 			}
 		}
@@ -1867,6 +1882,9 @@
 					a {
 						color: inherit;
 						border: 0;
+					}
+					.nav_logo {
+						display: none;
 					}
 				}
 

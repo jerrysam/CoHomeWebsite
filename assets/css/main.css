@@ -1216,10 +1216,10 @@ a {
   -ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #e44c65;
+  color: #ff4a4a;
   text-decoration: none; }
   a:hover {
-    color: #e44c65 !important;
+    color: #ff4a4a !important;
     border-bottom-color: transparent; }
 
 strong, b {
@@ -1601,7 +1601,7 @@ header.major {
   position: relative;
   text-align: center; }
   header.major:after {
-    background: #e44c65;
+    background: #ff4a4a;
     content: '';
     display: inline-block;
     height: 0.2em;
@@ -1614,7 +1614,7 @@ footer.major {
 
 /* Form */
 #mc_embed_signup {
-  background-color: #e44c65;
+  background-color: #ff4a4a;
   clear: left;
   font: 14px Helvetica,Arial,sans-serif;
   width: 100%; }
@@ -1664,7 +1664,7 @@ textarea {
   input[type="email"]:focus,
   select:focus,
   textarea:focus {
-    border-color: #e44c65; }
+    border-color: #ff4a4a; }
 
 .select-wrapper {
   text-decoration: none;
@@ -1758,7 +1758,7 @@ input[type="radio"] {
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
-    border-color: #e44c65; }
+    border-color: #ff4a4a; }
 
 input[type="checkbox"] + label:before {
   border-radius: 4px; }
@@ -2045,13 +2045,13 @@ input[type="button"],
   input[type="button"]:active,
   .button:hover,
   .button:active {
-    box-shadow: inset 0 0 0 1px #e44c65;
-    color: #e44c65 !important; }
+    box-shadow: inset 0 0 0 1px #ff4a4a;
+    color: #ff4a4a !important; }
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
   .button:active {
-    background-color: rgba(228, 76, 101, 0.15); }
+    background-color: rgba(255, 74, 74, 0.15); }
   input[type="submit"].icon:before,
   input[type="reset"].icon:before,
   input[type="button"].icon:before,
@@ -2078,19 +2078,19 @@ input[type="button"],
   input[type="reset"].special,
   input[type="button"].special,
   .button.special {
-    background-color: #e44c65;
+    background-color: #ff4a4a;
     box-shadow: none;
     color: #ffffff !important; }
     input[type="submit"].special:hover,
     input[type="reset"].special:hover,
     input[type="button"].special:hover,
     .button.special:hover {
-      background-color: #e76278; }
+      background-color: #ff6464; }
     input[type="submit"].special:active,
     input[type="reset"].special:active,
     input[type="button"].special:active,
     .button.special:active {
-      background-color: #e13652; }
+      background-color: #ff3131; }
   input[type="submit"].disabled, input[type="submit"]:disabled,
   input[type="reset"].disabled,
   input[type="reset"]:disabled,
@@ -2242,7 +2242,7 @@ input[type="button"],
   .spotlight.right .content {
     right: 0; }
   .spotlight.style1 .content {
-    background-color: #e44c65; }
+    background-color: rgba(255, 74, 74, 0.85); }
   .spotlight.style2 .content {
     background-color: #5480f1; }
   .spotlight.style3 .content {
@@ -2283,7 +2283,7 @@ body.is-touch .spotlight {
 .wrapper {
   padding: 6em 0 4em 0; }
   .wrapper.style2 {
-    background: #e44c65; }
+    background: #ff4a4a; }
     .wrapper.style2 input[type="text"]:focus,
     .wrapper.style2 input[type="password"]:focus,
     .wrapper.style2 input[type="email"]:focus,
@@ -2310,7 +2310,7 @@ body.is-touch .spotlight {
     .wrapper.style2 input[type="button"].special,
     .wrapper.style2 .button.special {
       background-color: #ffffff;
-      color: #e44c65 !important; }
+      color: #ff4a4a !important; }
       .wrapper.style2 input[type="submit"].special:hover, .wrapper.style2 input[type="submit"].special:active,
       .wrapper.style2 input[type="reset"].special:hover,
       .wrapper.style2 input[type="reset"].special:active,
@@ -2388,7 +2388,7 @@ body.is-touch .spotlight {
     .dropotron > li:first-child {
       border-top: 0; }
     .dropotron > li.active > a, .dropotron > li.active > span {
-      color: #e44c65; }
+      color: #ff4a4a; }
   .dropotron.level-0 {
     font-size: 0.8em;
     margin-top: 1em; }
@@ -2433,6 +2433,13 @@ body.landing .dropotron.level-0 {
     position: absolute;
     top: 0;
     color: #e76278; }
+    #header #logo .nav_logo {
+      height: inherit;
+      float: left;
+      padding: 8%;
+      height: inherit; }
+    #header #logo a {
+      color: #ff4a4a; }
   #header nav {
     position: relative;
     top: 0;
@@ -2458,7 +2465,7 @@ body.landing .dropotron.level-0 {
           #header nav ul li a:not(.button):before, #header nav ul li span:not(.button):before {
             margin-right: 0.5em; }
         #header nav ul li.active > a, #header nav ul li.active > span {
-          color: #e44c65; }
+          color: #ff4a4a; }
         #header nav ul li > ul {
           display: none; }
 
@@ -2510,7 +2517,8 @@ body.landing #header {
     z-index: 1; }
     #banner .content header {
       display: inline-block;
-      vertical-align: middle; }
+      vertical-align: middle;
+      max-width: 65%; }
       #banner .content header h1 {
         font-size: 2.5em;
         margin-bottom: 0.5em; }
@@ -2527,10 +2535,14 @@ body.landing #header {
       margin-left: 3em;
       vertical-align: middle;
       width: 18em; }
+      #banner .content .image:before {
+        background-color: rgba(255, 255, 255, 0.5);
+        background-image: none !important;
+        z-index: -1; }
       #banner .content .image img {
-        border-radius: 100%;
         display: block;
-        width: 100%; }
+        width: 70%;
+        margin: 15%; }
 
 body.is-touch #banner {
   background-attachment: scroll; }
@@ -2784,6 +2796,8 @@ body.is-touch #banner {
       #titleBar .title a {
         color: inherit;
         border: 0; }
+      #titleBar .title .nav_logo {
+        display: none; }
     #titleBar .toggle {
       text-decoration: none;
       height: 60px;
@@ -2801,7 +2815,7 @@ body.is-touch #banner {
         font-weight: normal;
         text-transform: none !important; }
       #titleBar .toggle:before {
-        background: #e44c65;
+        background: #ff4a4a;
         color: rgba(255, 255, 255, 0.5);
         content: '\f0c9';
         display: block;
