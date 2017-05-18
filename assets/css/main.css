@@ -1223,7 +1223,7 @@ a {
     border-bottom-color: transparent; }
 
 strong, b {
-  color: #ffffff;
+  color: #eee;
   font-weight: 500; }
 
 em, i {
@@ -1231,12 +1231,12 @@ em, i {
 
 p {
   margin: 0 0 2em 0;
-  color: white;
+  color: #eee;
   font-size: 1.1em;
   line-height: 1.7em; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #ffffff;
+  color: #eee;
   font-weight: 500;
   line-height: 1em;
   margin: 0 0 1em 0;
@@ -1283,13 +1283,13 @@ sup {
 
 hr {
   border: 0;
-  border-bottom: solid 1px rgba(255, 255, 255, 0.3);
+  border-bottom: solid 1px rgba(255, 255, 255, 0.8);
   margin: 3em 0; }
   hr.major {
     margin: 4em 0; }
 
 blockquote {
-  border-left: solid 4px rgba(255, 255, 255, 0.3);
+  border-left: solid 4px rgba(255, 255, 255, 0.8);
   font-style: italic;
   margin: 0 0 2em 0;
   padding: 0.5em 0 0.5em 2em; }
@@ -1601,7 +1601,7 @@ header.major {
   position: relative;
   text-align: center; }
   header.major:after {
-    background: #ff4a4a;
+    background: #eee;
     content: '';
     display: inline-block;
     height: 0.2em;
@@ -1618,14 +1618,12 @@ footer.major {
   clear: left;
   font: 14px Helvetica,Arial,sans-serif;
   width: 100%; }
-  #mc_embed_signup .button {
-    background-color: #5480f1; }
 
 form {
   margin: 0 0 2em 0; }
 
 label {
-  color: #ffffff;
+  color: #eee;
   display: block;
   font-size: 0.9em;
   font-weight: 500;
@@ -1646,7 +1644,7 @@ textarea {
   transition: border-color 0.2s ease-in-out;
   background: transparent;
   border-radius: 4px;
-  border: solid 1px rgba(255, 255, 255, 0.3);
+  border: solid 1px rgba(255, 255, 255, 0.8);
   color: inherit;
   display: block;
   outline: 0;
@@ -1678,7 +1676,7 @@ textarea {
     font-weight: normal;
     text-transform: none !important; }
   .select-wrapper:before {
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.8);
     content: '\f078';
     display: block;
     height: 3em;
@@ -1703,7 +1701,7 @@ textarea {
 
 select option {
   background-color: #1c1d26;
-  color: #ffffff; }
+  color: #eee; }
 select:focus::-ms-value {
   background: transparent; }
 
@@ -1741,7 +1739,7 @@ input[type="radio"] {
     input[type="checkbox"] + label:before,
     input[type="radio"] + label:before {
       border-radius: 4px;
-      border: solid 1px rgba(255, 255, 255, 0.3);
+      border: solid 1px rgba(255, 255, 255, 0.8);
       content: '';
       display: inline-block;
       height: 1.8em;
@@ -1754,7 +1752,7 @@ input[type="radio"] {
   input[type="checkbox"]:checked + label:before,
   input[type="radio"]:checked + label:before {
     background: rgba(255, 255, 255, 0.25);
-    color: #ffffff;
+    color: #eee;
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
@@ -1789,7 +1787,7 @@ input[type="radio"] + label:before {
 /* Box */
 .box {
   border-radius: 4px;
-  border: solid 1px rgba(255, 255, 255, 0.3);
+  border: solid 1px rgba(255, 255, 255, 0.8);
   margin-bottom: 2em;
   padding: 1.5em; }
   .box > :last-child,
@@ -1825,10 +1823,9 @@ input[type="radio"] + label:before {
       font-weight: normal;
       text-transform: none !important; }
     .icon.alt:before {
-      color: #1c1d26 !important;
-      text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff; }
+      color: #1c1d26; }
   .icon.major {
-    background: #272833;
+    background: #ff4a4a;
     border-radius: 100%;
     cursor: default;
     display: inline-block;
@@ -1849,8 +1846,7 @@ input[type="radio"] + label:before {
         font-weight: normal;
         text-transform: none !important; }
       .icon.major.alt:before {
-        color: #272833 !important;
-        text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff; }
+        color: #ff4a4a; }
 
 /* Image */
 .image {
@@ -1909,7 +1905,7 @@ ul {
     list-style: none;
     padding-left: 0; }
     ul.alt li {
-      border-top: solid 1px rgba(255, 255, 255, 0.3);
+      border-top: solid 1px rgba(255, 255, 255, 0.8);
       padding: 0.5em 0; }
       ul.alt li:first-child {
         border-top: 0;
@@ -1979,7 +1975,7 @@ table {
   margin: 0 0 2em 0;
   width: 100%; }
   table tbody tr {
-    border: solid 1px rgba(255, 255, 255, 0.3);
+    border: solid 1px rgba(255, 255, 255, 0.8);
     border-left: 0;
     border-right: 0; }
     table tbody tr:nth-child(2n + 1) {
@@ -1987,19 +1983,19 @@ table {
   table td {
     padding: 0.75em 0.75em; }
   table th {
-    color: #ffffff;
+    color: #eee;
     font-size: 0.9em;
     font-weight: 500;
     padding: 0 0.75em 0.75em 0.75em;
     text-align: left; }
   table thead {
-    border-bottom: solid 1px rgba(255, 255, 255, 0.3); }
+    border-bottom: solid 1px rgba(255, 255, 255, 0.8); }
   table tfoot {
-    border-top: solid 1px rgba(255, 255, 255, 0.3); }
+    border-top: solid 1px rgba(255, 255, 255, 0.8); }
   table.alt {
     border-collapse: separate; }
     table.alt tbody tr td {
-      border: solid 1px rgba(255, 255, 255, 0.3);
+      border: solid 1px rgba(255, 255, 255, 0.8);
       border-left-width: 0;
       border-top-width: 0; }
       table.alt tbody tr td:first-child {
@@ -2027,8 +2023,8 @@ input[type="button"],
   background-color: transparent;
   border-radius: 4px;
   border: 0;
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3);
-  color: #ffffff !important;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.8);
+  color: #eee;
   cursor: pointer;
   display: inline-block;
   font-weight: 500;
@@ -2045,8 +2041,8 @@ input[type="button"],
   input[type="button"]:active,
   .button:hover,
   .button:active {
-    box-shadow: inset 0 0 0 1px #ff4a4a;
-    color: #ff4a4a !important; }
+    box-shadow: inset 0 0 0 1px #272833;
+    color: #272833; }
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
@@ -2080,7 +2076,7 @@ input[type="button"],
   .button.special {
     background-color: #ff4a4a;
     box-shadow: none;
-    color: #ffffff !important; }
+    color: #eee !important; }
     input[type="submit"].special:hover,
     input[type="reset"].special:hover,
     input[type="button"].special:hover,
@@ -2098,9 +2094,9 @@ input[type="button"],
   input[type="button"]:disabled,
   .button.disabled,
   .button:disabled {
-    background-color: rgba(255, 255, 255, 0.3) !important;
+    background-color: rgba(255, 255, 255, 0.8) !important;
     box-shadow: none !important;
-    color: #ffffff !important;
+    color: #eee !important;
     cursor: default;
     opacity: 0.25; }
 
@@ -2229,7 +2225,8 @@ input[type="button"],
     border-bottom-width: 0.35em;
     top: 0; }
   .spotlight.bottom .content {
-    bottom: 0; }
+    bottom: 0;
+    opacity: 0.8; }
   .spotlight.left .content, .spotlight.right .content {
     height: 101%;
     padding: 6em 3em;
@@ -2242,11 +2239,7 @@ input[type="button"],
   .spotlight.right .content {
     right: 0; }
   .spotlight.style1 .content {
-    background-color: rgba(255, 74, 74, 0.85); }
-  .spotlight.style2 .content {
-    background-color: #5480f1; }
-  .spotlight.style3 .content {
-    background-color: #39c088; }
+    background-color: #ff4a4a; }
   .spotlight.inactive .content {
     opacity: 0; }
   .spotlight.inactive .goto-next {
@@ -2282,6 +2275,12 @@ body.is-touch .spotlight {
 /* Wrapper */
 .wrapper {
   padding: 6em 0 4em 0; }
+  .wrapper.style1 {
+    background: #5480f1; }
+    .wrapper.style1 .icon:before {
+      color: #5480f1; }
+    .wrapper.style1 .icon.major {
+      background: #eee !important; }
   .wrapper.style2 {
     background: #ff4a4a; }
     .wrapper.style2 input[type="text"]:focus,
@@ -2299,7 +2298,7 @@ body.is-touch .spotlight {
     .wrapper.style2 .button:active {
       background-color: rgba(255, 255, 255, 0.075) !important;
       box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5) !important;
-      color: #ffffff !important; }
+      color: #eee !important; }
     .wrapper.style2 input[type="submit"]:active,
     .wrapper.style2 input[type="reset"]:active,
     .wrapper.style2 input[type="button"]:active,
@@ -2309,7 +2308,7 @@ body.is-touch .spotlight {
     .wrapper.style2 input[type="reset"].special,
     .wrapper.style2 input[type="button"].special,
     .wrapper.style2 .button.special {
-      background-color: #ffffff;
+      background-color: #eee;
       color: #ff4a4a !important; }
       .wrapper.style2 input[type="submit"].special:hover, .wrapper.style2 input[type="submit"].special:active,
       .wrapper.style2 input[type="reset"].special:hover,
@@ -2320,7 +2319,7 @@ body.is-touch .spotlight {
       .wrapper.style2 .button.special:active {
         background-color: rgba(255, 255, 255, 0.075) !important;
         box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5) !important;
-        color: #ffffff !important; }
+        color: #eee !important; }
       .wrapper.style2 input[type="submit"].special:active,
       .wrapper.style2 input[type="reset"].special:active,
       .wrapper.style2 input[type="button"].special:active,
@@ -2547,15 +2546,29 @@ body.landing #header {
 body.is-touch #banner {
   background-attachment: scroll; }
 
+#rooms .button:hover, #rooms .button:active {
+  box-shadow: inset 0 0 0 1px #ff4a4a !important;
+  color: #ff4a4a; }
+
 #one h2 {
   margin-bottom: 0;
   font-style: italic; }
 
-#four .bgimage {
-  background: url(../../images/banner.jpg) no-repeat center center fixed;
-  background-size: cover; }
+#events {
+  background-color: #eee; }
+  #events h1, #events h2, #events h3, #events h4, #events h5, #events h6, #events p {
+    color: #272833; }
+  #events .button {
+    color: #555;
+    box-shadow: inset 0 0 0 1px #555; }
+    #events .button:hover, #events .button:active {
+      box-shadow: inset 0 0 0 1px #ff4a4a !important;
+      color: #ff4a4a; }
 
-#five header {
+#beta {
+  background-color: #5480f1; }
+
+#mailchimp header {
   margin: auto; }
 
 /* Footer */
@@ -2573,8 +2586,7 @@ body.is-touch #banner {
       font-weight: normal;
       text-transform: none !important; }
     #footer .icons .icon.alt:before {
-      color: #272833 !important;
-      text-shadow: 1px 0 0 rgba(255, 255, 255, 0.5), -1px 0 0 rgba(255, 255, 255, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5), 0 -1px 0 rgba(255, 255, 255, 0.5); }
+      color: #272833; }
   #footer .copyright {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.8em;
@@ -2583,7 +2595,7 @@ body.is-touch #banner {
     padding: 0;
     text-align: center; }
     #footer .copyright li {
-      border-left: solid 1px rgba(255, 255, 255, 0.3);
+      border-left: solid 1px rgba(255, 255, 255, 0.8);
       display: inline-block;
       list-style: none;
       margin-left: 1.5em;
@@ -2787,7 +2799,7 @@ body.is-touch #banner {
     background: #272833;
     box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125); }
     #titleBar .title {
-      color: #ffffff;
+      color: #eee;
       display: block;
       font-weight: 500;
       height: 44px;
@@ -2853,7 +2865,7 @@ body.is-touch #banner {
     padding: 0.75em 1.25em; }
     #navPanel .link {
       border: 0;
-      border-top: solid 1px rgba(255, 255, 255, 0.05);
+      border-top: solid 1px rgba(255, 255, 255, 0.55);
       color: rgba(255, 255, 255, 0.75);
       display: block;
       height: 3em;
@@ -2864,7 +2876,7 @@ body.is-touch #banner {
       #navPanel .link:first-child {
         border-top: 0; }
       #navPanel .link.depth-0 {
-        color: #ffffff;
+        color: #eee;
         font-weight: 500; }
       #navPanel .link .indent-1 {
         display: inline-block;

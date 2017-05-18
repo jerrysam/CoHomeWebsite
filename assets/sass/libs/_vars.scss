@@ -31,20 +31,20 @@
 
 // Palette.
 	$palette: (
-		bg:					#1c1d26,
-		bg-transparent:		rgba(23,24,32,0.4),
+		bg:					#1c1d26, // Black
+		bg-transparent:		rgba(23,24,32,0.4), // 40% black
 		nav-transparent:		rgba(0,0,0,0.5),
-		fg-bold:			#ffffff,
+		fg-bold:			#eee,
 		fg:					rgba(255,255,255,0.75),
 		fg-light:			rgba(255,255,255,0.5),
 		fg-lighter:			rgba(255,255,255,0.15),
-		border:				rgba(255,255,255,0.3),
+		border:				rgba(255,255,255,0.8),
 		border-bg:			rgba(255,255,255,0.075),
 		border2:			rgba(255,255,255,0.5),
 		border2-bg:			rgba(255,255,255,0.25),
-		accent1:			#ff4a4a,
-		accent2:			#272833,
+		accent1:			#ff4a4a, // Red
+		accent2:			#272833, // Black
 		accent2-transparent:rgba(39,40,51,0.965),
-		accent3:			#5480f1,
-		accent4:			#39c088
+		accent3:			#5480f1, // Blue
+		accent4:			#39c088 // Green - DO NOT USE
 	);

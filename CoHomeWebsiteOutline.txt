@@ -1,0 +1,62 @@
+red = accent1
+blue = accent2
+black = accent3
+
+
+#Home 
+ - one line summary
+ - house community image
+
+  old home copy
+   - Discover the home that builds you
+   - We've reinvented millennial living in London with a home for light-footed househoppers and globetrotters
+
+#Our rooms
+ - Find yourself a room so you can come stay with us.
+ - Embed Airbnb rooms
+
+#Designed for Millennials
+ - flexibility
+ - Short, medium, long term lets
+ - 2.5yrs adjusting responsibilities to work for digital millennials
+ - After trialling similar concepts (Silicon Houseabout/Houseabout Beta, House of Nomads, and NomadHouse), CoHome was started and grown in East London since 2015. There’s been 4 CoHome’s in total, and currently there is a CoHome Brick Lane, and CoHome Hoxton.
+
+#Home
+ - Growing each other.
+ - Big ideas, work together for something big
+ - CoHome is an experimental CoLiving concept where people help each other grow themselves; Whether that be in interpersonal, financial, professional, experiential, spiritual, or any other type of maturity. We love hearing about each others' lives and offering up our own experince to help people grow faster.
+
+
+#Vision
+ - High level vision / mission of CoHome
+ - "Like Buffer, but for the home"
+ - CoHome is reinventing living in London. Creating a place for light-footed househoppers (and globetrotters) to take their passions home with them.
+
+#Community (get involved)
+CoHome has a community of brilliant minds surrounding it. If you're feeling inspired, we welcome you to join us in growing yourself while growing CoHome.
+ - Dinner & Drinks
+ - Start Something
+ - CoHome Ideaboard
+
+ old 'get involved'/'live with us' copy
+  - <p>We'd love to host you for just a couple nights, weeks, or even create a monthly deal if we love you! <a href="http://www.airbnb.co.uk/s?host_id=58078261">quick book here</a></p>
+  <section class="4u 6u$(medium) 12u$(xsmall)">
+    <span class="icon alt major fa-cutlery"></span>
+    <h3>Dinner & Drinks</h3>
+    <p>If you want to gather some beautiful souls under our roof, you and we both know that food brings people together - just let us know!</p>
+  </section>
+  <section class="4u$ 6u$(medium) 12u$(xsmall)">
+    <span class="icon alt major fa-lightbulb-o"></span>
+    <h3>CoHome Ideaboard</h3>
+    <p>Check out our IdeasBoard, where anyone can suggest great ideas for CoHome, and we'll make the best ones happen every month.</p>
+  </section>
+  <p>In the end, there's so much going on at CoHome, the easiest way to get involved with us is to come and stay with us - even for one night. Find a room that's available on the night you're free, and we look forward to meeting you!</p>
+  <ul class="actions">
+    <li><a href="http://www.airbnb.co.uk/s?host_id=58078261" class="button">Get a room</a></li>
+  </ul>
+
+
+#Beta
+Here's a couple ideas that we're currently developing with our guests. If you're interested to be an early adopter, please do reach out to us!
+ - London launchpad
+ - Nomad launchpad

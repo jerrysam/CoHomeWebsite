@@ -41,11 +41,11 @@
 		$size: 1px;
 
 		&:before {
-			color: $bg !important;
-			text-shadow:	$size 0 0 $fg,
-							($size * -1) 0 0 $fg,
-							0 $size 0 $fg,
-							0 ($size * -1) 0 $fg;
+			color: $bg;
+			// text-shadow:	$size 0 0 $fg,
+			// 				($size * -1) 0 0 $fg,
+			// 				0 $size 0 $fg,
+			// 				0 ($size * -1) 0 $fg;
 		}
 	}
 
@@ -98,7 +98,7 @@
 
 	p {
 		margin: 0 0 _size(element-margin) 0;
-		color: white;
+		color: _palette(fg-bold);
     font-size: 1.1em;
 		line-height: 1.7em;
 	}
@@ -354,7 +354,7 @@
 			text-align: center;
 
 			&:after {
-				background: _palette(accent1);
+				background: _palette(fg-bold);
 				content: '';
 				display: inline-block;
 				height: 0.2em;
@@ -379,7 +379,7 @@
 		width:100%;
 
 		.button {
-			background-color:  _palette(accent3);
+			// background-color:  _palette(accent3);
 		}
 	}
 
@@ -598,7 +598,7 @@
 		}
 
 		&.major {
-			background: _palette(accent2);
+			background: _palette(accent1);
 			border-radius: 100%;
 			cursor: default;
 			display: inline-block;
@@ -613,7 +613,7 @@
 			}
 
 			&.alt {
-				@include line-icon(_palette(accent2));
+				@include line-icon(_palette(accent1));
 			}
 		}
 	}
@@ -899,7 +899,7 @@
 		border-radius: _size(border-radius);
 		border: 0;
 		box-shadow: inset 0 0 0 1px _palette(border);
-		color: _palette(fg-bold) !important;
+		color: _palette(fg-bold);
 		cursor: pointer;
 		display: inline-block;
 		font-weight: _font(weight-bold);
@@ -911,8 +911,8 @@
 		white-space: nowrap;
 
 		&:hover, &:active {
-			box-shadow: inset 0 0 0 1px _palette(accent1);
-			color: _palette(accent1) !important;
+			box-shadow: inset 0 0 0 1px _palette(accent2);
+			color: _palette(accent2);
 		}
 
 		&:active {
@@ -1068,6 +1068,7 @@
 			.content {
 				// border-top-width: 0.35em;
 				bottom: 0;
+				opacity: 0.8;
 			}
 		}
 
@@ -1092,24 +1093,24 @@
 				right: 0;
 			}
 		}
-
+		// Still inside spotlight!
 		&.style1 {
 			.content {
-				background-color: transparentize(_palette(accent1), 0.15);
+				background-color: _palette(accent1); //transparentize(_palette(accent1), 0.15)
 			}
 		}
-
-		&.style2 {
-			.content {
-				background-color: _palette(accent3);
-			}
-		}
-
-		&.style3 {
-			.content {
-				background-color: _palette(accent4);
-			}
-		}
+		//
+		// &.style2 {
+		// 	.content {
+		// 		background-color: _palette(accent1);
+		// 	}
+		// }
+		//
+		// &.style3 {
+		// 	.content {
+		// 		background-color: _palette(accent4);
+		// 	}
+		// }
 
 		&.inactive {
 			.content {
@@ -1159,7 +1160,22 @@
 		padding: $size-wrapper-pad-tb 0 ($size-wrapper-pad-tb - _size(element-margin)) 0;
 
 		&.style1 {
+			background: _palette(accent3);
+			.icon {
+				&:before {
+					color: _palette(accent3);
+				}
+				&.major {
+					background: _palette(fg-bold) !important;
+				}
+			}
 		}
+		// @mixin line-icon($bg: _palette(bg), $fg: _palette(fg-bold)) {
+		// 	@include icon;
+		// 	$size: 1px;
+		//
+		// 	&:before {
+		// 		color: $bg;
 
 		&.style2 {
 			background: _palette(accent1);
@@ -1500,6 +1516,16 @@
 		}
 	}
 
+	#rooms {
+		// background-color: _palette(accent3);
+		.button{
+			&:hover, &:active {
+				box-shadow: inset 0 0 0 1px _palette(accent1) !important;
+				color: _palette(accent1);
+			}
+		}
+	}
+
 	#one {
 		h2 {
 			margin-bottom: 0;
@@ -1507,14 +1533,32 @@
 		}
 	}
 
-	#four{
-		.bgimage {
-			background: url(../../images/banner.jpg) no-repeat center center fixed;
-			background-size: cover;
+	#events{
+		background-color: _palette(fg-bold);
+		h1, h2, h3, h4, h5, h6, p{
+			color: _palette(accent2);
 		}
+		.button {
+			color: #555;
+			box-shadow: inset 0 0 0 1px #555;
+
+		&:hover, &:active {
+				box-shadow: inset 0 0 0 1px _palette(accent1) !important;
+				color: _palette(accent1);
+			}
+		}
+		// .bgimage {
+		// 	background: url(../../images/banner.jpg) no-repeat center center fixed;
+		// 	background-size: cover;
+		// }
 	}
 
-	#five {
+	#beta {
+		background-color: _palette(accent3);
+
+	}
+
+	#mailchimp {
 		header {
 			margin: auto;
 		}
