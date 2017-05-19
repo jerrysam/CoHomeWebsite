@@ -1524,6 +1524,20 @@
 				color: _palette(accent1);
 			}
 		}
+		.room-listing {
+			background-color: white;
+			text-align: left;
+		}
+		.room-listing-desc {
+			p {
+				font-size: 0.9em;
+			}
+			p, h3, h5 {
+				color: #555 !important;
+			}
+			height: 300px;
+			padding: 20px;
+		}
 	}
 
 	#one {

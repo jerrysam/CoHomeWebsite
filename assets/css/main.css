@@ -2549,6 +2549,16 @@ body.is-touch #banner {
 #rooms .button:hover, #rooms .button:active {
   box-shadow: inset 0 0 0 1px #ff4a4a !important;
   color: #ff4a4a; }
+#rooms .room-listing {
+  background-color: white;
+  text-align: left; }
+#rooms .room-listing-desc {
+  height: 300px;
+  padding: 20px; }
+  #rooms .room-listing-desc p {
+    font-size: 0.9em; }
+  #rooms .room-listing-desc p, #rooms .room-listing-desc h3, #rooms .room-listing-desc h5 {
+    color: #555 !important; }
 
 #one h2 {
   margin-bottom: 0;
