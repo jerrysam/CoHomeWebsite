@@ -1472,7 +1472,7 @@
 			header {
 				display: inline-block;
 				vertical-align: middle;
-				max-width: 65%;
+				width: 65%;
 
 				h1 {
 					font-size: 2.5em;
@@ -1491,10 +1491,10 @@
 			.image {
 				border-radius: 100%;
 				display: inline-block;
-				height: 18em;
-				margin-left: 3em;
+				height: 29%;
+				margin-left: 5%;
 				vertical-align: middle;
-				width: 18em;
+				width: 29%;
 				&:before {
 					background-color: rgba(255,255,255,0.5);
 					background-image: none !important;
@@ -1770,8 +1770,12 @@
 
 					header {
 						display: block;
-						margin: 0 0 _size(element-margin) 0;
+						margin: 0 auto _size(element-margin) auto;
 						text-align: center;
+						p {
+							float: none;
+							margin: 0.5em auto 0 auto;
+						}
 					}
 
 					.image {
