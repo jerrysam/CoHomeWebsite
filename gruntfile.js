@@ -6,7 +6,7 @@ module.exports = function (grunt) {
   grunt.initConfig({
     watch: {
       sass: {
-        files: "assets/sass/*.scss",
+        files: "assets/sass/**/*.scss",
         tasks: "sass:dev"
       }
     },

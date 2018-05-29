@@ -7,7 +7,7 @@ This website is hosted with github pages, and when you push to the master branch
  - cd [path]
 // Clone the repository to your local computer 
  - git clone https://github.com/jerrysam/CoHomeWebsite.git
-// Initialise grunt, which contains sass compiler and browsersync (which I think is currently broken)
+// Initialise grunt, which contains sass compiler and browsersync
  - grunt
 
 ## To commit

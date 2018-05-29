@@ -99,7 +99,7 @@
 	p {
 		margin: 0 0 _size(element-margin) 0;
 		color: _palette(fg-bold);
-    font-size: 1.1em;
+    	font-size: 1.1em;
 		line-height: 1.7em;
 	}
 
@@ -1064,10 +1064,10 @@
 			}
 		}
 
-		&.bottom {
+		&.top {
 			.content {
 				// border-top-width: 0.35em;
-				bottom: 0;
+				top: 0;
 				opacity: 0.8;
 			}
 		}
@@ -1491,10 +1491,12 @@
 			.image {
 				border-radius: 100%;
 				display: inline-block;
-				height: 29%;
 				margin-left: 5%;
 				vertical-align: middle;
+				height: 29%;
 				width: 29%;
+				max-height: 300px;
+				max-width: 300px;
 				&:before {
 					background-color: rgba(255,255,255,0.5);
 					background-image: none !important;
@@ -1583,6 +1585,12 @@
 			margin: auto;
 		}
 	}
+	.center-question-mark {
+		margin: 0 auto 2em auto;
+	}
+
+
+
 /* Footer */
 
 	#footer {

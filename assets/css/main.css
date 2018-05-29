@@ -2224,8 +2224,8 @@ input[type="button"],
   .spotlight.top .content {
     border-bottom-width: 0.35em;
     top: 0; }
-  .spotlight.bottom .content {
-    bottom: 0;
+  .spotlight.top .content {
+    top: 0;
     opacity: 0.8; }
   .spotlight.left .content, .spotlight.right .content {
     height: 101%;
@@ -2276,9 +2276,9 @@ body.is-touch .spotlight {
 .wrapper {
   padding: 6em 0 4em 0; }
   .wrapper.style1 {
-    background: #5480f1; }
+    background: #17c0eb; }
     .wrapper.style1 .icon:before {
-      color: #5480f1; }
+      color: #17c0eb; }
     .wrapper.style1 .icon.major {
       background: #eee !important; }
   .wrapper.style2 {
@@ -2530,10 +2530,12 @@ body.landing #header {
     #banner .content .image {
       border-radius: 100%;
       display: inline-block;
-      height: 29%;
       margin-left: 5%;
       vertical-align: middle;
-      width: 29%; }
+      height: 29%;
+      width: 29%;
+      max-height: 300px;
+      max-width: 300px; }
       #banner .content .image:before {
         background-color: rgba(255, 255, 255, 0.5);
         background-image: none !important;
@@ -2582,10 +2584,13 @@ body.is-touch #banner {
       color: #ff4a4a; }
 
 #beta {
-  background-color: #5480f1; }
+  background-color: #17c0eb; }
 
 #mailchimp header {
   margin: auto; }
+
+.center-question-mark {
+  margin: 0 auto 2em auto; }
 
 /* Footer */
 #footer {
