@@ -78,11 +78,11 @@
 	a {
 		@include vendor('transition', ('border-color #{_duration(transition)} ease-in-out', 'color #{_duration(transition)} ease-in-out'));
 		border-bottom: dotted 1px;
-		color: _palette(accent1);
+		color: _palette(accent4);
 		text-decoration: none;
 
 		&:hover {
-			color: _palette(accent1) !important;
+			color: _palette(accent4) !important;
 			border-bottom-color: transparent;
 		}
 	}
@@ -417,7 +417,7 @@
 		}
 
 		&:focus {
-			border-color: _palette(accent1);
+			border-color: _palette(accent4);
 		}
 	}
 
@@ -515,7 +515,7 @@
 
 		&:focus + label {
 			&:before {
-				border-color: _palette(accent1);
+				border-color: _palette(accent4);
 			}
 		}
 	}
@@ -598,7 +598,7 @@
 		}
 
 		&.major {
-			background: _palette(accent1);
+			background: _palette(accent4);
 			border-radius: 100%;
 			cursor: default;
 			display: inline-block;
@@ -613,7 +613,7 @@
 			}
 
 			&.alt {
-				@include line-icon(_palette(accent1));
+				@include line-icon(_palette(accent4));
 			}
 		}
 	}
@@ -911,12 +911,12 @@
 		white-space: nowrap;
 
 		&:hover, &:active {
-			box-shadow: inset 0 0 0 1px _palette(accent2);
+			box-shadow: inset 0 0 0 1px _palette(accent4);
 			color: _palette(accent2);
 		}
 
 		&:active {
-			background-color: transparentize(_palette(accent1), 0.85);
+			background-color: transparentize(_palette(accent4), 0.85);
 		}
 
 		&.icon {
@@ -940,16 +940,16 @@
 		}
 
 		&.special {
-			background-color: _palette(accent1);
+			background-color: _palette(accent4);
 			box-shadow: none;
 			color: _palette(fg-bold) !important;
 
 			&:hover {
-				background-color: lighten(_palette(accent1), 5);
+				background-color: lighten(_palette(accent4), 5);
 			}
 
 			&:active {
-				background-color: darken(_palette(accent1), 5);
+				background-color: darken(_palette(accent4), 5);
 			}
 		}
 
@@ -1294,7 +1294,7 @@
 
 			&.active {
 				> a, > span {
-					color: _palette(accent1);
+					color: _palette(accent4);
 				}
 			}
 		}
@@ -1361,7 +1361,7 @@
 				height: inherit;
 			}
 			a {
-				color: _palette(accent1);
+				color: _palette(accent4);
 			}
 		}
 
@@ -1401,7 +1401,7 @@
 
 					&.active {
 						> a, > span {
-							color: _palette(accent1);
+							color: _palette(accent4);
 						}
 					}
 
@@ -1522,8 +1522,8 @@
 		// background-color: _palette(accent3);
 		.button{
 			&:hover, &:active {
-				box-shadow: inset 0 0 0 1px _palette(accent1) !important;
-				color: _palette(accent1);
+				box-shadow: inset 0 0 0 1px _palette(accent4) !important;
+				color: _palette(accent4);
 			}
 		}
 		.room-listing {
@@ -1565,8 +1565,8 @@
 			box-shadow: inset 0 0 0 1px #555;
 
 		&:hover, &:active {
-				box-shadow: inset 0 0 0 1px _palette(accent1) !important;
-				color: _palette(accent1);
+				box-shadow: inset 0 0 0 1px _palette(accent4) !important;
+				color: _palette(accent4);
 			}
 		}
 		// .bgimage {
@@ -1975,7 +1975,7 @@
 					border: 0;
 
 					&:before {
-						background: _palette(accent1);
+						background: _palette(accent4);
 						color: _palette(fg-light);
 						content: '\f0c9';
 						display: block;

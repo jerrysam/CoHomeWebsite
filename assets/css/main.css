@@ -1614,7 +1614,7 @@ footer.major {
 
 /* Form */
 #mc_embed_signup {
-  background-color: #ff4a4a;
+  background-color: #34495e;
   clear: left;
   font: 14px Helvetica,Arial,sans-serif;
   width: 100%; }
@@ -2041,7 +2041,7 @@ input[type="button"],
   input[type="button"]:active,
   .button:hover,
   .button:active {
-    box-shadow: inset 0 0 0 1px #272833;
+    box-shadow: inset 0 0 0 1px #ff4a4a;
     color: #272833; }
   input[type="submit"]:active,
   input[type="reset"]:active,
@@ -2239,7 +2239,7 @@ input[type="button"],
   .spotlight.right .content {
     right: 0; }
   .spotlight.style1 .content {
-    background-color: #ff4a4a; }
+    background-color: #34495e; }
   .spotlight.inactive .content {
     opacity: 0; }
   .spotlight.inactive .goto-next {
@@ -2276,13 +2276,13 @@ body.is-touch .spotlight {
 .wrapper {
   padding: 6em 0 4em 0; }
   .wrapper.style1 {
-    background: #17c0eb; }
+    background: #34495e; }
     .wrapper.style1 .icon:before {
-      color: #17c0eb; }
+      color: #34495e; }
     .wrapper.style1 .icon.major {
       background: #eee !important; }
   .wrapper.style2 {
-    background: #ff4a4a; }
+    background: #34495e; }
     .wrapper.style2 input[type="text"]:focus,
     .wrapper.style2 input[type="password"]:focus,
     .wrapper.style2 input[type="email"]:focus,
@@ -2309,7 +2309,7 @@ body.is-touch .spotlight {
     .wrapper.style2 input[type="button"].special,
     .wrapper.style2 .button.special {
       background-color: #eee;
-      color: #ff4a4a !important; }
+      color: #34495e !important; }
       .wrapper.style2 input[type="submit"].special:hover, .wrapper.style2 input[type="submit"].special:active,
       .wrapper.style2 input[type="reset"].special:hover,
       .wrapper.style2 input[type="reset"].special:active,
@@ -2584,7 +2584,7 @@ body.is-touch #banner {
       color: #ff4a4a; }
 
 #beta {
-  background-color: #17c0eb; }
+  background-color: #34495e; }
 
 #mailchimp header {
   margin: auto; }
