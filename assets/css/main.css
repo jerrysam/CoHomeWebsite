@@ -2135,7 +2135,7 @@ input[type="button"],
   background-position: center center;
   background-size: cover;
   box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
-  height: 100vh;
+  height: 700px;
   overflow: hidden;
   position: relative; }
   .spotlight:nth-last-of-type(1) {
@@ -2426,6 +2426,7 @@ body.landing .dropotron.level-0 {
   padding: 0 2%; }
   #header #logo {
     height: inherit;
+    width: 10em;
     left: 1.25em;
     line-height: 2.5em;
     margin: 0;
@@ -2433,12 +2434,12 @@ body.landing .dropotron.level-0 {
     top: 0;
     color: #e76278; }
     #header #logo .nav_logo {
-      height: inherit;
       float: left;
-      padding: 8%;
+      padding: 5%;
       height: inherit; }
     #header #logo a {
-      color: #ff4a4a; }
+      color: #ff4a4a;
+      vertical-align: middle; }
   #header nav {
     position: relative;
     top: 0;
@@ -2458,9 +2459,8 @@ body.landing .dropotron.level-0 {
           line-height: inherit;
           outline: 0; }
           #header nav ul li a.button, #header nav ul li span.button {
-            height: 2em;
             line-height: 2em;
-            padding: 0 1.25em; }
+            padding: 2px 1.25em 0; }
           #header nav ul li a:not(.button):before, #header nav ul li span:not(.button):before {
             margin-right: 0.5em; }
         #header nav ul li.active > a, #header nav ul li.active > span {
@@ -2480,7 +2480,6 @@ body.landing #header {
   background-image: url("../../images/banner.jpg");
   background-position: center center;
   background-size: cover;
-  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
   min-height: 100vh;
   position: relative;
   text-align: center;
@@ -2588,6 +2587,23 @@ body.is-touch #banner {
 
 #mailchimp header {
   margin: auto; }
+#mailchimp #mc_embed_signup input[type=email] {
+  height: auto;
+  line-height: 40px;
+  font-size: 1.1em;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 0 25px;
+  color: white;
+  font-family: "Istok Web", sans-serif;
+  margin-right: 30px; }
+#mailchimp #mc_embed_signup input[type=email]::placeholder {
+  color: white; }
+#mailchimp #mc_embed_signup input[type=submit] {
+  background-color: transparent;
+  padding: 0 35px;
+  line-height: 42px;
+  height: auto;
+  font-size: 1.1em; }
 
 .center-question-mark {
   margin: 0 auto 2em auto; }
@@ -2668,6 +2684,9 @@ body.is-touch #banner {
   /* Basic */
   body, input, select, textarea {
     font-size: 12pt; }
+
+  #header nav .responsively-kill {
+    display: none !important; }
 
   /* Spotlight */
   .spotlight {
